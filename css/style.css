@@ -1,0 +1,80 @@
+/* Styling main elements */
+
+body {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2vw;
+}
+main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 80%;
+  border: 0.01vw solid black;
+  background-color: #ccc;
+}
+
+/* Styling left section */
+
+.photo-info {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  color: #fff;
+  background-color: #003d73;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Styling right section */
+
+.main-info {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  text-align: justify;
+}
+.main-info h2 {
+  text-align: center;
+  color: #003d73;
+}
+.main-info p {
+  text-indent: 1vw;
+}
+
+/* Styling footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  box-sizing: border-box;
+  margin: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+  color: #fff;
+
+  background-color: #003d73;
+  border: 0.01vw solid black;
+  border-top: none;
+}
+footer p:last-child {
+  min-width: 25%;
+  text-align: end;
+}
+footer img {
+  float: right;
+  max-width: 20%;
+  margin-left: 1vw;
+}
+a {
+  color: white;
+}
