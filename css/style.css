@@ -1,0 +1,48 @@
+/* Styling main elements */
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2vw;
+}
+.main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  max-width: 80%;
+  border: 1px solid black;
+  background-color: #ccc;
+}
+
+/* Styling left section */
+
+.photo-info {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  background-color: #003d73;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Styling right section */
+
+.main-info {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+.main-info h2 {
+  text-align: center;
+  color: #003d73;
+}
+.main-info p {
+  text-indent: 1vw;
+}
