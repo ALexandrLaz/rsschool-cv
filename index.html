@@ -65,19 +65,21 @@
                     <section>
                         <h2>Some code</h2>
                         <pre><code>
-                            function createElem(name, className, event, fn) {
-                                let element = document.createElement(name);
-                                if (className != undefined) {
-                                  element.className = className;
-                                }
-                                if (event != undefined && fn != undefined) {
-                                  element.addEventListener(event, fn);
-                                }
-                                element.setAttribute("id", idItem);
-                                originBoard.push(idItem);
-                                idItem++;
-                                return element;
-                              };
+
+    function createElem(name, className, event, fn) {
+        let element = document.createElement(name);
+        if (className != undefined) {
+            element.className = className;
+        }
+        if (event != undefined && fn != undefined) {
+            element.addEventListener(event, fn);
+        }
+        element.setAttribute("id", idItem);
+        originBoard.push(idItem);
+        idItem++;
+        return element;
+    };
+
                         </code></pre>
                     </section>
                     <section>
