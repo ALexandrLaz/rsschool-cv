@@ -59,6 +59,10 @@ aside h2{
   padding: 20px 30px;
   box-sizing: border-box;
 }
+aside ul{
+  list-style-type: none;
+  padding-left: 0;
+}
 aside figure{
   display: flex;
 }
@@ -91,7 +95,7 @@ main {
 .main-info p {
   text-indent: 1vw;
 }
-ul{
+main ul{
   margin-left: 5%;
   font-style: oblique;
   font-weight: bold;
@@ -103,7 +107,29 @@ section pre{
   border-radius: 4px;
   color: #fff;
 }
-
+.project{
+  display: flex;
+}
+.project h2{
+  display: block;
+}
+.proj h3{
+  text-align: center;
+}
+.proj img{
+max-width: 100%;
+}
+.proj figcaption{
+  padding:1% 5%; 
+}
+.proj figure a{
+  color: black;
+  text-decoration: none;
+}
+.proj figure a span{
+  color:#003d73;
+  text-decoration: underline;
+}
 /* Styling footer */
 
 footer {
