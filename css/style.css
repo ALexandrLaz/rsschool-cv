@@ -70,6 +70,9 @@ aside figure img{
 .description{
   padding:0 6.9%;
 }
+section strong{
+  margin-left: 7%;
+}
 
 main {
   max-width: 70%;
