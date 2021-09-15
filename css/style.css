@@ -86,6 +86,9 @@ aside figure img{
   padding-left: 4%;
   box-sizing: border-box;
 }
+.burger a{
+  text-decoration: none;
+}
 .description{
   padding:0 6.9%;
 }
