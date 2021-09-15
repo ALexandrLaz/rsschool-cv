@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/docco.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>My CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="blur"></div>
+            <article class="header-maininfo">
+                <img src="img/LS(93).jpg" alt="My photo">
+                <h1>Alexandr Lazar</h1>
+                <h2>Junior Frontend developer</h2>
+            </article>
+            <nav class="burger">
+                <div class="burger-opnclose">
+                    <img src="img/pngegg.png" alt="menu" class="burgerMenu">
+                </div>
+                <ul class="topnav">
+                    <li class="burgerMenu-item"><a href="#me">Me</a></li>
+                    <li class="burgerMenu-item"><a href="#skills">Skills</a></li>
+                    <li class="burgerMenu-item"><a href="#code">Code</a></li>
+                    <li class="burgerMenu-item"><a href="#project">Project</a></li>
+                    <li class="burgerMenu-item"><a href="#education">Education</a></li>
+                    <li class="burgerMenu-item"><a href="#english">English</a></li>
+                    <li class="burgerMenu-item"><a href="#Si">Self-introduction</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="cont">
+            <aside>
+                <h2>Contact information:</h2>
+                <p class="description">
+                    If you have any questions please contact me:
+                </p>
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="img/pngwing.com(6).png" alt="geoposition">
+                            <figcaption>Belarus, Minsk.</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/pngwing.com(2).png" alt="phone number">
+                            <figcaption>+375 (29) 569-07-63</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/pngwing.com(5).png" alt="Gmail">
+                            <figcaption>lazarforcode@gmail.com</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/pngwing.com(3).png" alt="telegram">
+                            <figcaption>@AlehandroLaz</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </aside>
+            <main>
+                <div class="main-info">
+                    <section>
+                        <a id="me"><h2>About Me</h2></a>
+                        <p class="description">
+                            At the moment, my goal is to change the field of activity, I have been at my current place of work for 6 years. I believe that I was able to achieve everything that I could in this job, so I want to realize myself in a more promising and interesting direction. During my work, I have established myself as a responsible and executive employee who is able to fulfill the tasks assigned to me. I have no commercial experience in programming, but I strive to learn everything new and interesting for myself. In August I finished courses on Front-end development from the computer academy “ItStep”.
+                        </p>
+                    </section>
+                    <section>
+                        <a id="skills"><h2>My skills</h2></a>
+                        <p class="description">
+                            At the moment I do not have much experience and skills in commercial programming, knowledge of frameworks and databases. However, I will fix this shortcoming soon.
+                        </p>
+                            <strong>But now i have skills in:</strong>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Git</li>
+                                <li>JavaScript</li>
+                            </ul>
+                    </section>
+                    <section>
+                        <a id="code"><h2>Some code</h2></a>
+                        <pre><code>
+
+    function createElem(name, className, event, fn) {
+        let element = document.createElement(name);
+        if (className != undefined) {
+            element.className = className;
+        }
+        if (event != undefined && fn != undefined) {
+            element.addEventListener(event, fn);
+        }
+        element.setAttribute("id", idItem);
+        originBoard.push(idItem);
+        idItem++;
+        return element;
+    };
+
+                        </code></pre>
+                    </section>
+                    <section>
+                        <a id="project"><h2>My project</h2></a>
+                        <div  class="project">
+                            <div class="proj">
+                                <h3>Tic-tac-toe</h3>
+                                <figure>
+                                    <img src="img/Проект.PNG" alt="Крестики нолики">
+                                    <figcaption>A tic-tac-toe game with dynamically customizable fields. Written in pure JS <br>
+                                        <a href="https://github.com/ALexandrLaz/tic-tac-toe"><span>Link:</span> tic-tac-toe game repository</a>
+                                    </figcaption>
+                                    
+                                </figure>
+                            </div>
+                            <div class="proj">
+                                <h3>Wildlife</h3>
+                                <figure>
+                                    <img src="img/Wildlife.PNG" alt="Дикая природа">
+                                    <figcaption>Landing page is written using HTML and CSS <br>
+                                        <a href="https://github.com/ALexandrLaz/Wildlife-RSSchool"><span>Link:</span> Wildlife repository</a>
+                                    </figcaption>
+                                    
+                                </figure>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a id="education"><h2>My education</h2></a>
+                        <p class="description">
+                            I graduated from BSUIR with a degree in micro-electronic technologies and systems in 2015. He has been working as a specialty since 2014, having got a job in a private company. Until now, I have been working for this company. As I said earlier, I am currently taking courses on JavaScript development.
+                        </p>
+                    </section>
+                    <section>
+                        <a id="english"><h2>My english level</h2></a>
+                        <p class="description">
+                            My English level is A2, from practice I only had courses and communication with foreign partners.
+                        </p>
+                    </section>
+                    <section>
+                        <a id="Si"><h2>Self-introduction</h2></a>
+                        <iframe src="https://www.youtube.com/embed/fAHb-P0PP20" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <a href="https://docs.google.com/document/d/14BbwynWVvCNTseiILKF-MipQb4GJltqxbBZ0wIc3JAM/edit" class="google">Google Docs transcription</a>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <p>My <a href="https://github.com/ALexandrLaz">GitHub</a> account © 2021</p>
+            <p><a href="https://rs.school/js/">The Rolling Scopes<img src="img/rs_school_js.svg" alt="RSSchool-logo"></a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
